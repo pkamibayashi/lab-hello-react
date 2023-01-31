@@ -1,0 +1,51 @@
+.nav {
+  display: flex;
+
+  justify-content: space-around;
+  gap: 60%;
+  height: 4rem;
+  background-color: rgb(40, 40, 41);
+  border-left: 1rem solid white;
+  border-right: 1rem solid white;
+  border-top: 1rem solid white;
+}
+
+.nav > img {
+  background-color: rgb(40, 40, 41);
+  width: 5rem;
+  height: 5rem;
+  margin-top: 1rem;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 50rem;
+  padding-left: 5%;
+  background-color: rgb(40, 40, 41);
+  border-left: 1rem solid white;
+  border-right: 1rem solid white;
+}
+
+.h1 {
+  color: white;
+  font-size: 5rem;
+  display: flex;
+
+  width: 30rem;
+}
+
+.main > p {
+  color: white;
+  font-size: 2rem;
+  width: 21rem;
+  text-align: start;
+}
+
+.main > button {
+  width: 20%;
+  height: 10%;
+  font-size: 2rem;
+  color: rgb(40, 40, 41);
+}
